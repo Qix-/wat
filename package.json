@@ -4,7 +4,14 @@
   "description": "Community-controlled cheat sheets for every coder.",
   "main": "./dist/index.js",
   "scripts": {
+    "pretest": "xo",
     "test": "mocha"
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "dist/**"
+    ]
   },
   "repository": {
     "type": "git",
@@ -30,7 +37,8 @@
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "gulp-eslint": "^1.0.0",
-    "gulp-util": "^3.0.6"
+    "gulp-util": "^3.0.6",
+    "xo": "^0.6.1"
   },
   "dependencies": {
     "chalk": "^1.1.0",

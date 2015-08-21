@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
-const assert = require("assert");
-const should = require("should");
+const assert = require('assert');
+const should = require('should');
